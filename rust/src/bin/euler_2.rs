@@ -1,5 +1,4 @@
-#[allow(dead_code)]
-pub fn run() {
+fn main() {
     // the sum will be in the order of 10M so it's safe to use u32, which is in order of 4G
     let mut sum: u32 = 0;
     let mut fibs: [u32; 3] = [0, 1, 2];
